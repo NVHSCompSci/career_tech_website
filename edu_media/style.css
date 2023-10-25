@@ -1,0 +1,51 @@
+h3,h4,h5,h6,h1,h2{
+    text-align:center;
+}
+h1{
+    text-align: center;
+    margin-top:2em;
+}
+
+.section{
+    padding-top:2em;
+    padding-bottom:2em;
+}
+.navbar{
+    background-color: gray;
+    margin-bottom:2em;
+
+}
+.nav-item{
+    color:black;
+    text-decoration: none;
+    border:2px solid black;
+    background-color: white;
+}
+table{
+    border: .255em solid black;
+    
+}
+td{
+    border: .255em solid black;
+}
+thead{
+    border: .255em solid black;
+}
+tr{
+    border: .255em solid black;
+}
+th{
+    border: .255em solid black;
+}
+#logo{
+    
+    width: 30em;
+    height: 30em;
+    margin-bottom:1em;
+    
+}
+#header{
+    margin:2em;
+    height: 5em;
+    width: auto;
+}
