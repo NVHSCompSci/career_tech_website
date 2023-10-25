@@ -22,18 +22,30 @@ h1{
     background-color: white;
 }
 table{
-    border: 1em solid black;
+    border: .255em solid black;
     
 }
 td{
-    border: 1em solid black;
+    border: .255em solid black;
 }
 thead{
-    border: 1em solid black;
+    border: .255em solid black;
 }
 tr{
-    border: 1em solid black;
+    border: .255em solid black;
 }
 th{
-    border: 1em solid black;
+    border: .255em solid black;
+}
+#logo{
+    
+    width: 30em;
+    height: 30em;
+    margin-bottom:1em;
+    
+}
+#header{
+    margin:2em;
+    height: 5em;
+    width: auto;
 }
