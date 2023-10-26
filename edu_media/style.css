@@ -44,8 +44,20 @@ th{
     margin-bottom:1em;
     
 }
-#header{
+.header{
     margin:2em;
-    height: 5em;
+    height: 500px;
     width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.mid{
+    margin:2em;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
