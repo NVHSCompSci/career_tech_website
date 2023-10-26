@@ -25,6 +25,9 @@
         .logo {
             height: 300px;
             width: 300px;
+        }
+
+        .center {
             display: block;
             margin-left: auto;
             margin-right: auto;
@@ -33,56 +36,75 @@
 
     <body>
 
-        
-
-        <div class="header text-center">
-            Cosmetology
+        <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="imedia_media/Placeholder Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programs</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="bus_tech.html">Business Technology</a></li>
+                            <li><a class="dropdown-item" href="comp_sci.html">Computer Science</a></li>
+                            <li><a class="dropdown-item" href="cos.html">Cosmetology</a></li>
+                            <li><a class="dropdown-item" href="edu.html">Education</a></li>
+                            <li><a class="dropdown-item" href="engineering.html">Engineering</a></li>
+                            <li><a class="dropdown-item" href="fcs.html">Family & Consumer Science</a></li>
+                            <li><a class="dropdown-item" href="med_tech.html">Medical Technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="team.html">Meet the Team</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- Logo (placeholder image) -->
-        <img class="logo rounded-circle" alt="cos_logo" src="cos_media/cos_logo.png">
-            
-        <div class="container">
+    </nav>
+
+        <div class="container text-left">
             <div class="row">
-
-                <!-- column 1 / row 1 -->
-                <div class="col text-center">
-
+                <div class="header text-center">
+                    Cosmetology
+                </div>
+                <!-- Logo -->
+                <img class="logo center rounded-circle" alt="cos_logo" src="cos_media/cos_logo.png">
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-6">
                     <!-- Overview of Course -->
                     <div class="section-header">
                         Overview of Course
                     </div>
-                    <p>information goes here</p>
+                <p>information goes here</p>
                 </div>
-
-                <!-- column 1 / row 2 -->
-                <div class="col text-center">
-                    <img alt="cos_teacher" src="cos_media/download.png"> <!-- Maybe Image of Teacher -->
-                </div>
-
-                <!-- column 2 / row 1-->
-                    <div class="col text-center">
-                        <img alt="cos_teacher" src="cos_media/download.png"> <!-- Maybe Image of Teacher -->
-                    </div>
-                    
-                <!-- column 2 / row 2 --> 
-                    <div class="col text-center">
-
-                        <!-- About the Teacher -->
-                        <div class="section-header">
-                            About the Teacher
-                        </div>
-                        <p>information goes here</p>
-                    </div>
+                <div class="col-6">
+                    <img class="img-fluid center" src="cos_media/download.png">
+                    <p class="d-flex justify-content-center">Image Description</p>
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <img class="img-fluid center" src="cos_media/download.png">
+                    <p class="d-flex justify-content-center">Image Description</p>
+                </div>
+                <div class="col-6">
+                    <!-- About the Teacher -->
+                    <div class="section-header">
+                        About the Teacher
+                    </div>
+                <p>information goes here</p>
+                </div>
+            </div>
+        </div>
 
-        
 
         <!-- About the Teacher -->
         <div class="section-header">
             About the Teacher
         </div>
-        <p>information goes here</p>
+        
         
         <!-- What do you do in Cosmotology -->
         <div class="section-header">
