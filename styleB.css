@@ -1,0 +1,12 @@
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDB44B;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    height: 70px;
+    transition: height 0.3s ease; 
+    padding: 20px;
+  }
