@@ -8,7 +8,8 @@ p {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 64px;
+    color:white;
 }
 
 h3 {
@@ -19,3 +20,11 @@ h3 {
     border: 3px solid #00204A;
 }
 
+.fixed-bg {
+    background-image: url("imedia_media/DSC_1247.JPG");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
