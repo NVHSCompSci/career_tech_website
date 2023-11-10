@@ -1,17 +1,12 @@
-h1 {
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDB44B;
+    color: white;
     text-align: center;
-}
-
-.navbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.container {
-    max-width: 100%; /* Make the container fluid */
-}
-
-.card {
-    margin-top: 20px;
-}
+    overflow: hidden;
+    height: 70px;
+    transition: height 0.3s ease; 
+    padding: 20px;
+  }
