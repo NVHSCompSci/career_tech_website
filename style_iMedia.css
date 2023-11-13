@@ -28,3 +28,16 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDB44B;
+    color: white;
+    
+    overflow: hidden;
+    height: 70px;
+    transition: height 0.3s ease; 
+    padding: 20px;
+  }
