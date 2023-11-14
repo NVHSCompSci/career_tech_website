@@ -28,3 +28,24 @@ h3 {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .foot {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FDB44B;
+    color: white;
+    height: 10%;
+    transition: height 0.3s ease; 
+    padding: 20px;
+  }
+
+.d{
+    color:gray;
+    font-size:14px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color:#005792;
+}

@@ -10,3 +10,7 @@
     transition: height 0.3s ease; 
     padding: 20px;
   }
+
+  .navbar {
+    border-bottom: 4px solid #00BBF0;
+}
