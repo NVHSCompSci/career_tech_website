@@ -41,12 +41,11 @@ nav img {
     max-width: 20%;
     max-height: 20%;
 }
-#heading{
+header {
     background-image: url(/engineering_media/Screenshot\ 2023-11-09\ 10.51.22\ AM.png);
     width:auto;
     height:500px;
     background-size:cover;
     background-repeat: no-repeat;
-    margin-top: 0px;
-    
+    margin-top: 10px;
 }
