@@ -10,15 +10,11 @@ h1{
     padding-top:2em;
     padding-bottom:2em;
 }
-.navbar{
-    background-color: gray;
-    margin-bottom:2em;
 
-}
 .nav-item{
     color:black;
     text-decoration: none;
-    border:2px solid black;
+    
     background-color: white;
 }
 table{
@@ -41,11 +37,33 @@ nav img {
     max-width: 20%;
     max-height: 20%;
 }
-header {
-    background-image: url("/engineering_media/Screenshot\ 2023-11-09\ 10.51.22\ AM.png");
+.fixed-bg {
+    background-image: url(/engineering_media/masks.png);
     width:auto;
     height:500px;
     background-size:cover;
     background-repeat: no-repeat;
-    margin-top: 10px;
+    margin-top: 0px;
+    border: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: color;
+    
+    
+}
+.fixed-bg h1{
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    align-self: center;
+    color:black;
+    background-color: rgba(255, 255, 255, 0.507);
+    
+    
+
+}
+nav{
+    border-bottom: 4px solid #00BBF0;
+    background-color: white;
+    margin-bottom: 0px;
 }
