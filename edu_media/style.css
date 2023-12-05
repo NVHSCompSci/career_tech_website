@@ -60,3 +60,20 @@ th{
     margin-left: auto;
     margin-right: auto;
 }
+.nav-item{
+    color:black;
+    text-decoration: none;
+    
+    background-color: white;
+}
+
+nav img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+nav{
+    border-bottom: 4px solid #00BBF0;
+    background-color: white;
+    margin-bottom: 0px;
+}
