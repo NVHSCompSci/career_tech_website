@@ -5,8 +5,8 @@
     background-color: #FDB44B;
     color: white;
     text-align: left;
+    height: 5%;
     overflow: hidden;
-    height: 70px;
     transition: height 0.3s ease; 
     padding: 20px;
   }
