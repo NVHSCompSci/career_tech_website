@@ -36,7 +36,7 @@ nav img {
     max-height: 20%;
 }
 .fixed-bg {
-    background-image: url(/engineering_media/ScreenshotBigRoom.png);
+    background-image: url('/engineering_media/ScreenshotBigRoom.png');
     width:auto;
     height:500px;
     background-size:cover;
