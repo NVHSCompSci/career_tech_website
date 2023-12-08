@@ -77,3 +77,11 @@ nav{
     background-color: white;
     margin-bottom: 0px;
 }
+.low{
+    margin:2em;
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
