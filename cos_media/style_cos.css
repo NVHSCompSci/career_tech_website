@@ -19,3 +19,11 @@ h3 {
     border: 3px solid #00204A;
 }
 
+.footer {
+    background-color: #FDB44B;
+    padding: 20px;
+}
+
+img {
+    max-height: 500px;
+}
