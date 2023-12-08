@@ -32,3 +32,75 @@ nav img {
     max-width: 20%;
     max-height: 20%;
 }
+
+.oval-image {
+    width: 210px;
+    height: 200px;
+    margin-top: 15px;
+    position:absolute;
+    border-radius: 50%;
+    background-image: url(#);
+    background-size: cover;
+    border: 7px solid #234555;
+  }
+
+  .oval-imagE {
+    width: 210px;
+    height: 200px;
+    margin-top: 15px;
+    position:absolute;
+    border-radius: 50%;
+    background-image: url(#);
+    background-size: cover;
+    border: 7px solid #234555;
+  }
+
+  .flex-container{
+    display: flex;
+  flex-flow:row wrap;
+  
+  justify-content: space-between;
+  }
+
+  /* styles for the team cards */
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 16.6%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
