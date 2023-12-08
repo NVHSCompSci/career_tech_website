@@ -4,9 +4,10 @@
     width: 100%;
     background-color: #FDB44B;
     color: white;
+<<<<<<< Updated upstream
     text-align: left;
+    height: 5%;
     overflow: hidden;
-    height: 70px;
     transition: height 0.3s ease; 
     padding: 20px;
   }
@@ -14,3 +15,10 @@
   .navbar {
     border-bottom: 4px solid #00BBF0;
 }
+=======
+    text-align: center;
+    overflow: hidden;
+    height: 5;
+    transition: height 0.3s ease; 
+  }
+>>>>>>> Stashed changes
