@@ -4,7 +4,6 @@
     width: 100%;
     background-color: #FDB44B;
     color: #00204A;
-<<<<<<< Updated upstream
     text-align: left;
     height: 5%;
     overflow: hidden;
@@ -15,10 +14,9 @@
   .navbar {
     border-bottom: 4px solid #00BBF0;
 }
-=======
-    text-align: center;
-    overflow: hidden;
-    height: 5;
-    transition: height 0.3s ease; 
-  }
->>>>>>> Stashed changes
+.img-hover:hover {
+  opacity: 0.8; 
+  transition: opacity 0.3s ease;
+  transform: scale(1.1); /* Adjust the scale factor for the desired enlargement */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
