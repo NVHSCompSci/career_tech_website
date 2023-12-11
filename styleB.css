@@ -23,3 +23,11 @@
 .col-6 img {
   border: 3px solid #00204A;
 }
+.navbar-brand img {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
