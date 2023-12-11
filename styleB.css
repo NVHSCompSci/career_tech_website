@@ -20,3 +20,6 @@
   transform: scale(1.1); /* Adjust the scale factor for the desired enlargement */
   transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+.col-6 img {
+  border: 3px solid #00204A;
+}
