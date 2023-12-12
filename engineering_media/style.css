@@ -36,7 +36,7 @@ nav img {
     max-height: 20%;
 }
 .fixed-bg {
-    background-image: url('https://placekitten.com/408/287');
+    background-image: url('https://s3.amazonaws.com/shecodesio-production/uploads/files/000/106/468/original/masksen.png?1702062901');
     width:auto;
     height:500px;
     background-size:cover;
@@ -64,4 +64,13 @@ nav{
     border-bottom: 4px solid #00BBF0;
     background-color: white;
     margin-bottom: 0px;
+}
+blockquote{
+    display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 4px;
+  margin-right: 40px;
+  padding-left: 40px;
+  border-left: 4px solid #00BBF0;
 }
